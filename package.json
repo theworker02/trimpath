@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/trimpath",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trim validation gates for path inputs before they hit prod.",
+  "bin": {
+    "trimpath": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/trimpath.git"
+  },
+  "homepage": "https://theworker02.github.io/trimpath/",
+  "keywords": [
+    "trim",
+    "path",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
